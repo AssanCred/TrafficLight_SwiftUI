@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		880AAC0C2A343A650083B3C3 /* LightOfTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880AAC0B2A343A650083B3C3 /* LightOfTraffic.swift */; };
+		880AAC0C2A343A650083B3C3 /* SwiftTypeOfLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880AAC0B2A343A650083B3C3 /* SwiftTypeOfLightView.swift */; };
 		8814E0332A338422004D0899 /* TrafficLight_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814E0322A338422004D0899 /* TrafficLight_SwiftUIApp.swift */; };
 		8814E0352A338422004D0899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814E0342A338422004D0899 /* ContentView.swift */; };
 		8814E0372A338423004D0899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8814E0362A338423004D0899 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		880AAC0B2A343A650083B3C3 /* LightOfTraffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOfTraffic.swift; sourceTree = "<group>"; };
+		880AAC0B2A343A650083B3C3 /* SwiftTypeOfLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypeOfLightView.swift; sourceTree = "<group>"; };
 		8814E02F2A338422004D0899 /* TrafficLight_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8814E0322A338422004D0899 /* TrafficLight_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8814E0342A338422004D0899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			children = (
 				8814E0322A338422004D0899 /* TrafficLight_SwiftUIApp.swift */,
 				8814E0342A338422004D0899 /* ContentView.swift */,
-				880AAC0B2A343A650083B3C3 /* LightOfTraffic.swift */,
+				880AAC0B2A343A650083B3C3 /* SwiftTypeOfLightView.swift */,
 				8814E0362A338423004D0899 /* Assets.xcassets */,
 				8814E0382A338423004D0899 /* Preview Content */,
 			);
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880AAC0C2A343A650083B3C3 /* LightOfTraffic.swift in Sources */,
+				880AAC0C2A343A650083B3C3 /* SwiftTypeOfLightView.swift in Sources */,
 				8814E0352A338422004D0899 /* ContentView.swift in Sources */,
 				8814E0332A338422004D0899 /* TrafficLight_SwiftUIApp.swift in Sources */,
 			);
