@@ -17,7 +17,7 @@ struct SwiftTypeOfLightView: View {
             Circle()
                 .foregroundColor(color)
                 .frame(width: 120, height: 120)
-                .overlay(Circle().stroke(Color.white, lineWidth: 3))
+                .overlay(Circle().stroke(Color.white, lineWidth: 2))
                 .opacity(alfa)
                 .shadow(color: shadowColor, radius: 20)
         }

@@ -30,7 +30,7 @@ struct ContentView: View {
                     .frame(width: 190, height: 480)
                     .overlay(
                         RoundedRectangle(cornerRadius: 100)
-                            .stroke(Color.white, lineWidth: 3)
+                            .stroke(Color.white, lineWidth: 2)
                     )
                     .shadow(radius: 10)
                 VStack(spacing: 20) {
