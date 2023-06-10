@@ -16,7 +16,6 @@ struct ContentView: View {
     //MARK: - Private properties
     @State private var currentLight = CurrentLight.red
     @State private var buttonTitle = "START"
-    @State private var color = Color.red
     
     @State private var redAlfa = 0.1
     @State private var yellowAlfa = 0.1
@@ -34,21 +33,9 @@ struct ContentView: View {
                     )
                     .shadow(radius: 10)
                 VStack(spacing: 20) {
-                    SwiftTypeOfLightView(
-                        color: .red,
-                        alfa: redAlfa,
-                        shadowColor: .red
-                    )
-                    SwiftTypeOfLightView(
-                        color: .yellow,
-                        alfa: yellowAlfa,
-                        shadowColor: .yellow
-                    )
-                    SwiftTypeOfLightView(
-                        color: .green,
-                        alfa: greenAlfa,
-                        shadowColor: .green
-                    )
+                    SwiftTypeOfLightView(color: .red, alfa: redAlfa)
+                    SwiftTypeOfLightView(color: .yellow, alfa: yellowAlfa)
+                    SwiftTypeOfLightView(color: .green, alfa: greenAlfa)
                 }
             }
             Spacer()
@@ -77,17 +64,14 @@ extension ContentView {
         
         switch currentLight {
         case .red:
-            color = .yellow
             greenAlfa = lightIsOff
             redAlfa = lightIsOne
             currentLight = .yellow
         case .yellow:
-            color = .green
             redAlfa = lightIsOff
             yellowAlfa = lightIsOne
             currentLight = .green
         case .green:
-            color = .red
             yellowAlfa = lightIsOff
             greenAlfa = lightIsOne
             currentLight = .red
